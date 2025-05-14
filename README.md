@@ -1,11 +1,12 @@
-# OSSP Project - Linux Lite Operating System
+# Linux-Lite-Operating-System
 
-This repository contains my Operating System and System Programming (OSSP) project for Bahir Dar University. It includes the installation of Linux Lite in a virtual environment and the implementation of the `mkdir()` system call in C.
+This is a documentation project about learning and working with the Linux Lite operating system. It includes installation steps using VirtualBox, a system call (`mkdir()`) implementation in C, and explanations of core OS concepts.  
+**[View Full PDF Documentation](OSSP_individual_Hana_Asrate_Tigu_bdu1601687_section_b.pdf)**
 
-## a. OS Installation (Linux Lite in VirtualBox)
+## OS Installation
 
-Linux Lite is a lightweight Linux distribution designed for beginners and users switching from Windows. I installed it on a virtual machine using VirtualBox by allocating system resources and booting from the Linux Lite ISO. The setup included creating a user, setting time zone, and updating the system. During installation, I resolved a system freeze by increasing RAM and CPU. The OS successfully booted and ran smoothly after setup.
+This section provides a complete guide for installing the Linux Lite operating system in a virtual environment using VirtualBox. It includes steps for setting up the virtual machine, allocating resources, and completing the installation process. Common issues like system freezes were resolved by adjusting memory and processor settings. It also discusses system requirements, supported filesystems, and advantages/disadvantages of using Linux Lite.
 
-## b. System Call - mkdir() Implementation
+## mkdir() System Call Implementation
 
-I implemented the `mkdir()` system call in C to create a new directory in Linux Lite. The program uses standard POSIX headers and `mkdir(path, 0700)` to assign permissions. It was compiled with `gcc` and run from the terminal. If successful, it prints a confirmation message; otherwise, it shows an error. This demonstrates how system calls work at the OS level.
+This section demonstrates the implementation of the `mkdir()` system call in the Linux Lite environment using the C programming language. It explains the necessary headers, permission flags, compilation using `gcc`, and execution via terminal. The sample code creates a directory and prints success or failure based on the result. This is ideal for learners exploring filesystem-level system calls in Linux-based systems.
